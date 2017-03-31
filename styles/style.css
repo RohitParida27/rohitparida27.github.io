@@ -126,9 +126,9 @@ header, main {
 }
 
 .intro .photo {
-    height: 80px;
-    width: 80px;
-    border: solid #FFF 4px;
+    height: 100px;
+    width: 100px;
+    border: solid #FFF 6px;
     border-radius: 50%;
     animation: img .2s forwards;
     animation-delay: .8s

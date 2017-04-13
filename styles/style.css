@@ -73,7 +73,7 @@ svg {
 .appbar {
     position: fixed;
     overflow: hidden;
-    background: #E0E0E0;
+    background: #e0e0e0;
     width: 100vw;
     height: 25vh;
     text-align: center;
@@ -128,6 +128,7 @@ header, main {
 .intro .photo {
     height: 100px;
     width: 100px;
+    background: #E91E63;
     border: solid #FFF 6px;
     border-radius: 50%;
     animation: img .2s forwards;
@@ -138,12 +139,13 @@ header, main {
     font-weight: normal;
     margin-top: 20px;
     font-size: 20px;
+    color: rgba(0, 0, 0, 0.87);
 }
 
 .info {
     font-weight: normal;
     font-size: 14px;
-    color: #757575;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .tab {
@@ -161,6 +163,7 @@ header, main {
 
 .name {
     font-size: 15px;
+    color: rgba(0, 0, 0, 0.7);
 }
 
 hr {
@@ -184,8 +187,8 @@ hr {
 }
 
 .contacts_btns a {
-    fill: #616161;
-    color: #616161
+    fill: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .fab {
@@ -219,7 +222,7 @@ footer {
     bottom: 0;
     text-align: center;
     font-size: 24px;
-    color: #757575;
+    color: rgba(0, 0, 0, 0.5);
     margin: 16px 0;
 }
 

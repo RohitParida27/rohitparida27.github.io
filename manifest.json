@@ -24,6 +24,6 @@
     }],
   "start_url": "/index.html",
   "display": "standalone",
-  "background_color": "#E91E63",
+  "background_color": "#3F51B5",
   "theme_color": "#303F9F"
 }

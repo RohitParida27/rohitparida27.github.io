@@ -44,6 +44,16 @@
     box-sizing: border-box;
 }
 
+::selection {
+    color: #FCE4EC;
+    background: #F06292;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: #FCE4EC;
+    background: #F06292;
+}
+
 .title svg {
     fill: #3F51B5;
     margin-right: 6px;
@@ -103,10 +113,12 @@ header, main {
 
 .cards-vessel {
     position: relative;
+    margin-top: 10vh;
     transform: translateY(100%);
     visibility: hidden;
     animation: cards .3s ease-in-out forwards;
-    animation-delay: .3s
+    animation-delay: .3s;
+    will-change: transform;
 }
 
 .card {
@@ -121,7 +133,6 @@ header, main {
 }
 
 .intro {
-    margin-top: 10vh;
     text-align: center;
 }
 
@@ -132,7 +143,8 @@ header, main {
     border: solid #FFF 6px;
     border-radius: 50%;
     animation: img .2s forwards;
-    animation-delay: .8s
+    animation-delay: .8s;
+    will-change: box-shadow;
 }
 
 .intro .name {
